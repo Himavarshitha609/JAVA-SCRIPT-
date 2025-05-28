@@ -1,0 +1,17 @@
+//Single Line Comments//
+// This is a single line comment
+console.log("Hello World"); // This is also a single line comment
+//Multi-Line Comments//
+/*
+This is 
+a multi-line 
+comment.
+*/
+//Variables//
+var name = "Harry";
+//Variable names cannot start with a number//
+var 1name = "Harry"; // will throw an error because of the 1 at the start
+//Variable names cannot contain spaces//
+var my name = "Harry"; // will throw an error because of the space
+//Variable names cannot contain special characters like !, @, #, $, %, ^, &, *, (, ), -, +, =, [, ], {, }, |, \, :, ;, <, >, ,, ., /, ?, ~.//
+var my-name = "Harry"; // will throw an error because of the `-` character
